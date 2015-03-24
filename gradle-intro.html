@@ -1,0 +1,88 @@
+
+<section data-markdown> <script type="text/template">
+## Gradle
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## Why Gradle
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## It scales to the complexity of the problem
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## The simplest `build.gradle`
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+      apply plugin: 'java'
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## What is Gradle?
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## Ant + Maven
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## Keywords
+
+# Build automation
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## Keywords
+
+# Convention over configuration
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+## Keywords
+
+# Tasks
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+
+</script> </section>
+
+<section data-markdown> <script type="text/template">
+</script> </section>
+
+
+Concepts
+* Build automation
+  ** Build _language_
+  ** Groovy DSL
+  ** Can use regular Groovy inside the build script
+  ** The Maven model is severly limited
+* Convention over configuration
+  ** Uses Maven standard project structure
+  ** Uses Maven artifact repository server
+  ** Java plugin
+* Tasks
+  ** Plugins provide preconfigured tasks/convention
+  ** But you can put it together how you like it
+    ** Dependencies between tasks
+* Incremental builds
+  ** Builds just what you have changed
+* Dependency Management
+  ** Conflict resolution
+* Multi-project support
+  ** But Maven has it??
+
+
+Nice
+* _Very_ easy to write plugins
+* Use ant tasks if native plugin not available
+* Is very good at knowing when a task is up-to-date --> faster build
+
+
+
+declarative build, convention over configuration, plugins, multi–project support, partial builds and increments, Ant and Maven integration.
+
+
+flexible configuration,concise metadata,conflict resolution
